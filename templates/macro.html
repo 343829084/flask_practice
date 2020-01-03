@@ -1,5 +1,5 @@
-{% macro function(type='text', name='', value='') %}
-<input type="{{type}}" name="{{name}}"
-value="{{value}}" class="form-control"></input>
+{% macro function(type='text', name='', placeholder='', value='') %}
+<input type="{{type}}", name="{{name}}", placeholder="{{ placeholder }}"
+value="{{value}}", class="form-control"></input>
 
 {% endmacro %}

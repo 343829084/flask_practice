@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% from 'macro.html' import function as input %}
+{% block content %}
+    <h1>Bootstrap-Flask examples</h1>
+<ul>
+    <li><a href="{{ url_for('test_form') }}">Form</a></li>
+</ul>
+<p> this is macro test
+    {{ input("text", "", "请输入账号", "")}}
+</p>
+{% endblock %}
