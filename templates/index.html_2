@@ -46,8 +46,8 @@
 
   </head>
 
-        <body >
-            <div class="container-fluid" id="wrap">
+        <body>
+            <div class="bg-dark dk" id="wrap">
                 <div id="top">
                     <!-- /.navbar -->
                         <header class="head">
@@ -59,7 +59,7 @@
                         <!-- /.head -->
                 </div>
                 <!-- /#top -->
-                    <div id="left" class="row-fluid">
+                    <div id="left">
                         <div class="media user-media bg-dark dker">
                             <div class="user-media-toggleHover">
                                 <span class="fa fa-user"></span>
@@ -72,8 +72,8 @@
                             </div>
                         </div>
                         <!-- #menu -->
-                        <div id="div_menu" class="span6" role="navigation" >
-                                <ul id="menu">
+                        <div id="div_menu" class="bg-dark dker" role="navigation" >
+                                <ul id="menu" class="bg-dark dker">
                                    <li class="">
                                     <a href="dashboard.html">
                                       <i class="fa fa-dashboard"></i><span class="link-title">&nbsp;主页</span>
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                     <!-- /#left -->
-                <div id="content" class="span6">
+                <div id="content">
                     <div class="outer">
                         <div class="inner bg-light lter">
                             <div class="col-lg-12">
